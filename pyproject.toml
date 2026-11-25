@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openai-omega-nine-fourths-lower-bound-certificates"
+version = "1.0.0"
+description = "Constructive Lean 4.35.0 & Zero-Float Exact Certificates for OpenAI's Matching Lower Bound omega_F = 9/4 (OMEGA94-LB-CERT-1.0)"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Lluis Eriksson"}]
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

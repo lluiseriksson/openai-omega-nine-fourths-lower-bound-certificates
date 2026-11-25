@@ -1,0 +1,11 @@
+name = "openai_omega_lower_bound"
+version = "0.1.0"
+defaultTargets = ["OpenAIOmegaLowerBound"]
+
+[[lean_lib]]
+name = "OpenAIOmegaLowerBound"
+moreLeanArgs = ["-j", "1"]
+
+[[lean_lib]]
+name = "AuditAxioms"
+moreLeanArgs = ["-j", "1"]

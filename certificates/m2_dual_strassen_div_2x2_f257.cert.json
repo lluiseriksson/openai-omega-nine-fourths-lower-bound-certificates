@@ -1,0 +1,181 @@
+{
+  "protocol": "OMEGA94-LB-CERT-1.0",
+  "certificate_id": "m2_dual_strassen_div_2x2_f257",
+  "mode": "dual_number_bilinearization_cert",
+  "description": "Lem. 2.4 symbolic dual-number bilinearization over F_257[X,Y][u,v]/(u^2,v^2) for 2x2 (strassen_div)",
+  "payload": {
+    "prime_p": 257,
+    "side_s": 2,
+    "A0": [
+      3,
+      5,
+      7,
+      11
+    ],
+    "B0": [
+      2,
+      13,
+      17,
+      19
+    ],
+    "gates": [
+      {
+        "op": "add",
+        "lhs": 0,
+        "rhs": 3
+      },
+      {
+        "op": "add",
+        "lhs": 4,
+        "rhs": 7
+      },
+      {
+        "op": "add",
+        "lhs": 2,
+        "rhs": 3
+      },
+      {
+        "op": "sub",
+        "lhs": 5,
+        "rhs": 7
+      },
+      {
+        "op": "sub",
+        "lhs": 6,
+        "rhs": 4
+      },
+      {
+        "op": "add",
+        "lhs": 0,
+        "rhs": 1
+      },
+      {
+        "op": "sub",
+        "lhs": 2,
+        "rhs": 0
+      },
+      {
+        "op": "add",
+        "lhs": 4,
+        "rhs": 5
+      },
+      {
+        "op": "sub",
+        "lhs": 1,
+        "rhs": 3
+      },
+      {
+        "op": "add",
+        "lhs": 6,
+        "rhs": 7
+      },
+      {
+        "op": "mul",
+        "lhs": 8,
+        "rhs": 9
+      },
+      {
+        "op": "mul",
+        "lhs": 10,
+        "rhs": 4
+      },
+      {
+        "op": "mul",
+        "lhs": 0,
+        "rhs": 11
+      },
+      {
+        "op": "mul",
+        "lhs": 3,
+        "rhs": 12
+      },
+      {
+        "op": "mul",
+        "lhs": 13,
+        "rhs": 7
+      },
+      {
+        "op": "mul",
+        "lhs": 14,
+        "rhs": 15
+      },
+      {
+        "op": "mul",
+        "lhs": 16,
+        "rhs": 17
+      },
+      {
+        "op": "const",
+        "val": 1
+      },
+      {
+        "op": "add",
+        "lhs": 0,
+        "rhs": 7
+      },
+      {
+        "op": "add",
+        "lhs": 26,
+        "rhs": 25
+      },
+      {
+        "op": "mul",
+        "lhs": 18,
+        "rhs": 27
+      },
+      {
+        "op": "div",
+        "lhs": 28,
+        "rhs": 27
+      },
+      {
+        "op": "add",
+        "lhs": 29,
+        "rhs": 21
+      },
+      {
+        "op": "sub",
+        "lhs": 30,
+        "rhs": 22
+      },
+      {
+        "op": "add",
+        "lhs": 31,
+        "rhs": 24
+      },
+      {
+        "op": "add",
+        "lhs": 20,
+        "rhs": 22
+      },
+      {
+        "op": "add",
+        "lhs": 19,
+        "rhs": 21
+      },
+      {
+        "op": "sub",
+        "lhs": 29,
+        "rhs": 19
+      },
+      {
+        "op": "add",
+        "lhs": 35,
+        "rhs": 20
+      },
+      {
+        "op": "add",
+        "lhs": 36,
+        "rhs": 23
+      }
+    ],
+    "output_wire_indices": [
+      32,
+      33,
+      34,
+      37
+    ],
+    "claimed_nonscalar_count": 9,
+    "claimed_rank_upper_bound": 18
+  }
+}

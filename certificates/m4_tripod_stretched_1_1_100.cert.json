@@ -1,0 +1,75 @@
+{
+  "protocol": "OMEGA94-LB-CERT-1.0",
+  "certificate_id": "m4_tripod_stretched_1_1_100",
+  "mode": "tripod_harmonic_and_amhm_rigidity_cert",
+  "description": "Secs. 7.4/8.2/11.3 five-arm harmonic star & tripod AM-HM rigidity for arms [Fraction(1, 1), Fraction(1, 1), Fraction(100, 1)]",
+  "payload": {
+    "star_slope_matrix": [
+      [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      [
+        -1,
+        -1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        -4
+      ]
+    ],
+    "tripod_arms": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        100,
+        1
+      ]
+    ],
+    "claimed_D_star": [
+      20402,
+      201
+    ],
+    "claimed_perimeter": [
+      204,
+      1
+    ],
+    "claimed_exponent_ratio": [
+      20502,
+      10201
+    ],
+    "am_hm_margin": [
+      726,
+      67
+    ],
+    "asymptotic_b": 100,
+    "claimed_asymptotic_D_star": [
+      20402,
+      201
+    ]
+  }
+}

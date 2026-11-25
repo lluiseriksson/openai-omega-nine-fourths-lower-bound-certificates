@@ -1,0 +1,100 @@
+{
+  "rows": [
+    {
+      "n": 2,
+      "border_rank_lb_9_4": 5,
+      "gate_lb_9_4": 3,
+      "landsberg_michalek_br_lb": 6,
+      "blaser_rank_lb": 4,
+      "ratio_94_over_lm": 0.833
+    },
+    {
+      "n": 4,
+      "border_rank_lb_9_4": 23,
+      "gate_lb_9_4": 12,
+      "landsberg_michalek_br_lb": 29,
+      "blaser_rank_lb": 28,
+      "ratio_94_over_lm": 0.793
+    },
+    {
+      "n": 8,
+      "border_rank_lb_9_4": 108,
+      "gate_lb_9_4": 54,
+      "landsberg_michalek_br_lb": 124,
+      "blaser_rank_lb": 136,
+      "ratio_94_over_lm": 0.871
+    },
+    {
+      "n": 16,
+      "border_rank_lb_9_4": 512,
+      "gate_lb_9_4": 256,
+      "landsberg_michalek_br_lb": 507,
+      "blaser_rank_lb": 592,
+      "ratio_94_over_lm": 1.01
+    },
+    {
+      "n": 32,
+      "border_rank_lb_9_4": 2436,
+      "gate_lb_9_4": 1218,
+      "landsberg_michalek_br_lb": 2042,
+      "blaser_rank_lb": 2464,
+      "ratio_94_over_lm": 1.193
+    },
+    {
+      "n": 64,
+      "border_rank_lb_9_4": 11586,
+      "gate_lb_9_4": 5793,
+      "landsberg_michalek_br_lb": 8185,
+      "blaser_rank_lb": 10048,
+      "ratio_94_over_lm": 1.416
+    },
+    {
+      "n": 128,
+      "border_rank_lb_9_4": 55109,
+      "gate_lb_9_4": 27555,
+      "landsberg_michalek_br_lb": 32760,
+      "blaser_rank_lb": 40576,
+      "ratio_94_over_lm": 1.682
+    },
+    {
+      "n": 256,
+      "border_rank_lb_9_4": 262144,
+      "gate_lb_9_4": 131072,
+      "landsberg_michalek_br_lb": 131063,
+      "blaser_rank_lb": 163072,
+      "ratio_94_over_lm": 2.0
+    },
+    {
+      "n": 512,
+      "border_rank_lb_9_4": 1246975,
+      "gate_lb_9_4": 623488,
+      "landsberg_michalek_br_lb": 524278,
+      "blaser_rank_lb": 653824,
+      "ratio_94_over_lm": 2.378
+    },
+    {
+      "n": 1024,
+      "border_rank_lb_9_4": 5931642,
+      "gate_lb_9_4": 2965821,
+      "landsberg_michalek_br_lb": 2097141,
+      "blaser_rank_lb": 2618368,
+      "ratio_94_over_lm": 2.828
+    },
+    {
+      "n": 2048,
+      "border_rank_lb_9_4": 28215802,
+      "gate_lb_9_4": 14107901,
+      "landsberg_michalek_br_lb": 8388596,
+      "blaser_rank_lb": 10479616,
+      "ratio_94_over_lm": 3.364
+    },
+    {
+      "n": 4096,
+      "border_rank_lb_9_4": 134217728,
+      "gate_lb_9_4": 67108864,
+      "landsberg_michalek_br_lb": 33554419,
+      "blaser_rank_lb": 41930752,
+      "ratio_94_over_lm": 4.0
+    }
+  ]
+}

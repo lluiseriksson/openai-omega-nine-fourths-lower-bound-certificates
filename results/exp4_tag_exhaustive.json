@@ -1,0 +1,6 @@
+{
+  "tag_h1_exhaustive_total": 64,
+  "tag_h1_accepted": 8,
+  "tag_h1_exact_matches": 64,
+  "note": "All 64 combinations of (tags, x, y) in {0,1}^6 for Tag(1,1) match Section 4.1 two-D_w signed-sum identically."
+}

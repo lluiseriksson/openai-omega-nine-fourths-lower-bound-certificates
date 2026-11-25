@@ -1,0 +1,628 @@
+{
+  "protocol": "OMEGA94-LB-CERT-1.0",
+  "certificate_id": "m2_dual_schoolbook_4x4_f1009",
+  "mode": "dual_number_bilinearization_cert",
+  "description": "Lem. 2.4 symbolic dual-number bilinearization over F_1009[X,Y][u,v]/(u^2,v^2) for 4x4 (schoolbook)",
+  "payload": {
+    "prime_p": 1009,
+    "side_s": 4,
+    "A0": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "B0": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "gates": [
+      {
+        "op": "mul",
+        "lhs": 0,
+        "rhs": 16
+      },
+      {
+        "op": "mul",
+        "lhs": 1,
+        "rhs": 20
+      },
+      {
+        "op": "add",
+        "lhs": 32,
+        "rhs": 33
+      },
+      {
+        "op": "mul",
+        "lhs": 2,
+        "rhs": 24
+      },
+      {
+        "op": "add",
+        "lhs": 34,
+        "rhs": 35
+      },
+      {
+        "op": "mul",
+        "lhs": 3,
+        "rhs": 28
+      },
+      {
+        "op": "add",
+        "lhs": 36,
+        "rhs": 37
+      },
+      {
+        "op": "mul",
+        "lhs": 0,
+        "rhs": 17
+      },
+      {
+        "op": "mul",
+        "lhs": 1,
+        "rhs": 21
+      },
+      {
+        "op": "add",
+        "lhs": 39,
+        "rhs": 40
+      },
+      {
+        "op": "mul",
+        "lhs": 2,
+        "rhs": 25
+      },
+      {
+        "op": "add",
+        "lhs": 41,
+        "rhs": 42
+      },
+      {
+        "op": "mul",
+        "lhs": 3,
+        "rhs": 29
+      },
+      {
+        "op": "add",
+        "lhs": 43,
+        "rhs": 44
+      },
+      {
+        "op": "mul",
+        "lhs": 0,
+        "rhs": 18
+      },
+      {
+        "op": "mul",
+        "lhs": 1,
+        "rhs": 22
+      },
+      {
+        "op": "add",
+        "lhs": 46,
+        "rhs": 47
+      },
+      {
+        "op": "mul",
+        "lhs": 2,
+        "rhs": 26
+      },
+      {
+        "op": "add",
+        "lhs": 48,
+        "rhs": 49
+      },
+      {
+        "op": "mul",
+        "lhs": 3,
+        "rhs": 30
+      },
+      {
+        "op": "add",
+        "lhs": 50,
+        "rhs": 51
+      },
+      {
+        "op": "mul",
+        "lhs": 0,
+        "rhs": 19
+      },
+      {
+        "op": "mul",
+        "lhs": 1,
+        "rhs": 23
+      },
+      {
+        "op": "add",
+        "lhs": 53,
+        "rhs": 54
+      },
+      {
+        "op": "mul",
+        "lhs": 2,
+        "rhs": 27
+      },
+      {
+        "op": "add",
+        "lhs": 55,
+        "rhs": 56
+      },
+      {
+        "op": "mul",
+        "lhs": 3,
+        "rhs": 31
+      },
+      {
+        "op": "add",
+        "lhs": 57,
+        "rhs": 58
+      },
+      {
+        "op": "mul",
+        "lhs": 4,
+        "rhs": 16
+      },
+      {
+        "op": "mul",
+        "lhs": 5,
+        "rhs": 20
+      },
+      {
+        "op": "add",
+        "lhs": 60,
+        "rhs": 61
+      },
+      {
+        "op": "mul",
+        "lhs": 6,
+        "rhs": 24
+      },
+      {
+        "op": "add",
+        "lhs": 62,
+        "rhs": 63
+      },
+      {
+        "op": "mul",
+        "lhs": 7,
+        "rhs": 28
+      },
+      {
+        "op": "add",
+        "lhs": 64,
+        "rhs": 65
+      },
+      {
+        "op": "mul",
+        "lhs": 4,
+        "rhs": 17
+      },
+      {
+        "op": "mul",
+        "lhs": 5,
+        "rhs": 21
+      },
+      {
+        "op": "add",
+        "lhs": 67,
+        "rhs": 68
+      },
+      {
+        "op": "mul",
+        "lhs": 6,
+        "rhs": 25
+      },
+      {
+        "op": "add",
+        "lhs": 69,
+        "rhs": 70
+      },
+      {
+        "op": "mul",
+        "lhs": 7,
+        "rhs": 29
+      },
+      {
+        "op": "add",
+        "lhs": 71,
+        "rhs": 72
+      },
+      {
+        "op": "mul",
+        "lhs": 4,
+        "rhs": 18
+      },
+      {
+        "op": "mul",
+        "lhs": 5,
+        "rhs": 22
+      },
+      {
+        "op": "add",
+        "lhs": 74,
+        "rhs": 75
+      },
+      {
+        "op": "mul",
+        "lhs": 6,
+        "rhs": 26
+      },
+      {
+        "op": "add",
+        "lhs": 76,
+        "rhs": 77
+      },
+      {
+        "op": "mul",
+        "lhs": 7,
+        "rhs": 30
+      },
+      {
+        "op": "add",
+        "lhs": 78,
+        "rhs": 79
+      },
+      {
+        "op": "mul",
+        "lhs": 4,
+        "rhs": 19
+      },
+      {
+        "op": "mul",
+        "lhs": 5,
+        "rhs": 23
+      },
+      {
+        "op": "add",
+        "lhs": 81,
+        "rhs": 82
+      },
+      {
+        "op": "mul",
+        "lhs": 6,
+        "rhs": 27
+      },
+      {
+        "op": "add",
+        "lhs": 83,
+        "rhs": 84
+      },
+      {
+        "op": "mul",
+        "lhs": 7,
+        "rhs": 31
+      },
+      {
+        "op": "add",
+        "lhs": 85,
+        "rhs": 86
+      },
+      {
+        "op": "mul",
+        "lhs": 8,
+        "rhs": 16
+      },
+      {
+        "op": "mul",
+        "lhs": 9,
+        "rhs": 20
+      },
+      {
+        "op": "add",
+        "lhs": 88,
+        "rhs": 89
+      },
+      {
+        "op": "mul",
+        "lhs": 10,
+        "rhs": 24
+      },
+      {
+        "op": "add",
+        "lhs": 90,
+        "rhs": 91
+      },
+      {
+        "op": "mul",
+        "lhs": 11,
+        "rhs": 28
+      },
+      {
+        "op": "add",
+        "lhs": 92,
+        "rhs": 93
+      },
+      {
+        "op": "mul",
+        "lhs": 8,
+        "rhs": 17
+      },
+      {
+        "op": "mul",
+        "lhs": 9,
+        "rhs": 21
+      },
+      {
+        "op": "add",
+        "lhs": 95,
+        "rhs": 96
+      },
+      {
+        "op": "mul",
+        "lhs": 10,
+        "rhs": 25
+      },
+      {
+        "op": "add",
+        "lhs": 97,
+        "rhs": 98
+      },
+      {
+        "op": "mul",
+        "lhs": 11,
+        "rhs": 29
+      },
+      {
+        "op": "add",
+        "lhs": 99,
+        "rhs": 100
+      },
+      {
+        "op": "mul",
+        "lhs": 8,
+        "rhs": 18
+      },
+      {
+        "op": "mul",
+        "lhs": 9,
+        "rhs": 22
+      },
+      {
+        "op": "add",
+        "lhs": 102,
+        "rhs": 103
+      },
+      {
+        "op": "mul",
+        "lhs": 10,
+        "rhs": 26
+      },
+      {
+        "op": "add",
+        "lhs": 104,
+        "rhs": 105
+      },
+      {
+        "op": "mul",
+        "lhs": 11,
+        "rhs": 30
+      },
+      {
+        "op": "add",
+        "lhs": 106,
+        "rhs": 107
+      },
+      {
+        "op": "mul",
+        "lhs": 8,
+        "rhs": 19
+      },
+      {
+        "op": "mul",
+        "lhs": 9,
+        "rhs": 23
+      },
+      {
+        "op": "add",
+        "lhs": 109,
+        "rhs": 110
+      },
+      {
+        "op": "mul",
+        "lhs": 10,
+        "rhs": 27
+      },
+      {
+        "op": "add",
+        "lhs": 111,
+        "rhs": 112
+      },
+      {
+        "op": "mul",
+        "lhs": 11,
+        "rhs": 31
+      },
+      {
+        "op": "add",
+        "lhs": 113,
+        "rhs": 114
+      },
+      {
+        "op": "mul",
+        "lhs": 12,
+        "rhs": 16
+      },
+      {
+        "op": "mul",
+        "lhs": 13,
+        "rhs": 20
+      },
+      {
+        "op": "add",
+        "lhs": 116,
+        "rhs": 117
+      },
+      {
+        "op": "mul",
+        "lhs": 14,
+        "rhs": 24
+      },
+      {
+        "op": "add",
+        "lhs": 118,
+        "rhs": 119
+      },
+      {
+        "op": "mul",
+        "lhs": 15,
+        "rhs": 28
+      },
+      {
+        "op": "add",
+        "lhs": 120,
+        "rhs": 121
+      },
+      {
+        "op": "mul",
+        "lhs": 12,
+        "rhs": 17
+      },
+      {
+        "op": "mul",
+        "lhs": 13,
+        "rhs": 21
+      },
+      {
+        "op": "add",
+        "lhs": 123,
+        "rhs": 124
+      },
+      {
+        "op": "mul",
+        "lhs": 14,
+        "rhs": 25
+      },
+      {
+        "op": "add",
+        "lhs": 125,
+        "rhs": 126
+      },
+      {
+        "op": "mul",
+        "lhs": 15,
+        "rhs": 29
+      },
+      {
+        "op": "add",
+        "lhs": 127,
+        "rhs": 128
+      },
+      {
+        "op": "mul",
+        "lhs": 12,
+        "rhs": 18
+      },
+      {
+        "op": "mul",
+        "lhs": 13,
+        "rhs": 22
+      },
+      {
+        "op": "add",
+        "lhs": 130,
+        "rhs": 131
+      },
+      {
+        "op": "mul",
+        "lhs": 14,
+        "rhs": 26
+      },
+      {
+        "op": "add",
+        "lhs": 132,
+        "rhs": 133
+      },
+      {
+        "op": "mul",
+        "lhs": 15,
+        "rhs": 30
+      },
+      {
+        "op": "add",
+        "lhs": 134,
+        "rhs": 135
+      },
+      {
+        "op": "mul",
+        "lhs": 12,
+        "rhs": 19
+      },
+      {
+        "op": "mul",
+        "lhs": 13,
+        "rhs": 23
+      },
+      {
+        "op": "add",
+        "lhs": 137,
+        "rhs": 138
+      },
+      {
+        "op": "mul",
+        "lhs": 14,
+        "rhs": 27
+      },
+      {
+        "op": "add",
+        "lhs": 139,
+        "rhs": 140
+      },
+      {
+        "op": "mul",
+        "lhs": 15,
+        "rhs": 31
+      },
+      {
+        "op": "add",
+        "lhs": 141,
+        "rhs": 142
+      }
+    ],
+    "output_wire_indices": [
+      38,
+      45,
+      52,
+      59,
+      66,
+      73,
+      80,
+      87,
+      94,
+      101,
+      108,
+      115,
+      122,
+      129,
+      136,
+      143
+    ],
+    "claimed_nonscalar_count": 64,
+    "claimed_rank_upper_bound": 128
+  }
+}

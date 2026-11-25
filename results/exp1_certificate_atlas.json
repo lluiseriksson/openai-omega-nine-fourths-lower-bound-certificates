@@ -1,0 +1,246 @@
+{
+  "protocol": "OMEGA94-LB-CERT-1.0",
+  "count": 16,
+  "certificates": [
+    {
+      "certificate_id": "m1_bounds_n16_rect4x4x4",
+      "mode": "rank_gate_and_tight_support_cert",
+      "mean_ms": 0.038,
+      "summary": {
+        "mode": "rank_gate_and_tight_support_cert",
+        "n_square": 16,
+        "border_rank_lb": 512,
+        "gate_lb": 256,
+        "rect_rank_lb": 23,
+        "tight_triples_checked": 64,
+        "sun_lb": 262144,
+        "certificate_id": "m1_bounds_n16_rect4x4x4",
+        "protocol": "OMEGA94-LB-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m1_bounds_n256_sun_refute",
+      "mode": "rank_gate_and_tight_support_cert",
+      "mean_ms": 0.077,
+      "summary": {
+        "mode": "rank_gate_and_tight_support_cert",
+        "n_square": 256,
+        "border_rank_lb": 262144,
+        "gate_lb": 131072,
+        "rect_rank_lb": 256,
+        "tight_triples_checked": 216,
+        "sun_lb": 262144,
+        "certificate_id": "m1_bounds_n256_sun_refute",
+        "protocol": "OMEGA94-LB-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m1_bounds_n1024_rect64x16x64",
+      "mode": "rank_gate_and_tight_support_cert",
+      "mean_ms": 0.125,
+      "summary": {
+        "mode": "rank_gate_and_tight_support_cert",
+        "n_square": 1024,
+        "border_rank_lb": 5931642,
+        "gate_lb": 2965821,
+        "rect_rank_lb": 4096,
+        "tight_triples_checked": 512,
+        "sun_lb": 262144,
+        "certificate_id": "m1_bounds_n1024_rect64x16x64",
+        "protocol": "OMEGA94-LB-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m1_bounds_n4096_rect256x64x256",
+      "mode": "rank_gate_and_tight_support_cert",
+      "mean_ms": 0.229,
+      "summary": {
+        "mode": "rank_gate_and_tight_support_cert",
+        "n_square": 4096,
+        "border_rank_lb": 134217728,
+        "gate_lb": 67108864,
+        "rect_rank_lb": 92682,
+        "tight_triples_checked": 1000,
+        "sun_lb": 134217728,
+        "certificate_id": "m1_bounds_n4096_rect256x64x256",
+        "protocol": "OMEGA94-LB-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m2_dual_strassen_2x2_f101",
+      "mode": "dual_number_bilinearization_cert",
+      "mean_ms": 0.132,
+      "summary": {
+        "mode": "dual_number_bilinearization_cert",
+        "prime_p": 101,
+        "side_s": 2,
+        "total_gates": 25,
+        "nonscalar_gates": 7,
+        "lemma24_rank_ub": 14,
+        "certificate_id": "m2_dual_strassen_2x2_f101",
+        "protocol": "OMEGA94-LB-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m2_dual_strassen_div_2x2_f257",
+      "mode": "dual_number_bilinearization_cert",
+      "mean_ms": 0.169,
+      "summary": {
+        "mode": "dual_number_bilinearization_cert",
+        "prime_p": 257,
+        "side_s": 2,
+        "total_gates": 30,
+        "nonscalar_gates": 9,
+        "lemma24_rank_ub": 18,
+        "certificate_id": "m2_dual_strassen_div_2x2_f257",
+        "protocol": "OMEGA94-LB-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m2_dual_schoolbook_div_3x3_f509",
+      "mode": "dual_number_bilinearization_cert",
+      "mean_ms": 0.499,
+      "summary": {
+        "mode": "dual_number_bilinearization_cert",
+        "prime_p": 509,
+        "side_s": 3,
+        "total_gates": 49,
+        "nonscalar_gates": 29,
+        "lemma24_rank_ub": 58,
+        "certificate_id": "m2_dual_schoolbook_div_3x3_f509",
+        "protocol": "OMEGA94-LB-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m2_dual_schoolbook_4x4_f1009",
+      "mode": "dual_number_bilinearization_cert",
+      "mean_ms": 2.466,
+      "summary": {
+        "mode": "dual_number_bilinearization_cert",
+        "prime_p": 1009,
+        "side_s": 4,
+        "total_gates": 112,
+        "nonscalar_gates": 64,
+        "lemma24_rank_ub": 128,
+        "certificate_id": "m2_dual_schoolbook_4x4_f1009",
+        "protocol": "OMEGA94-LB-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m3_tag_h1_exhaustive_4cases",
+      "mode": "tagged_perm_two_dw_reduction_cert",
+      "mean_ms": 0.027,
+      "summary": {
+        "mode": "tagged_perm_two_dw_reduction_cert",
+        "h_bits": 1,
+        "N_records": 2,
+        "instances_verified": 4,
+        "accepted_instances": 2,
+        "certificate_id": "m3_tag_h1_exhaustive_4cases",
+        "protocol": "OMEGA94-LB-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m3_tag_h2_valid_and_collisions",
+      "mode": "tagged_perm_two_dw_reduction_cert",
+      "mean_ms": 0.06,
+      "summary": {
+        "mode": "tagged_perm_two_dw_reduction_cert",
+        "h_bits": 2,
+        "N_records": 4,
+        "instances_verified": 4,
+        "accepted_instances": 2,
+        "certificate_id": "m3_tag_h2_valid_and_collisions",
+        "protocol": "OMEGA94-LB-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m3_tag_h3_cyclic_perm_n8",
+      "mode": "tagged_perm_two_dw_reduction_cert",
+      "mean_ms": 0.61,
+      "summary": {
+        "mode": "tagged_perm_two_dw_reduction_cert",
+        "h_bits": 3,
+        "N_records": 8,
+        "instances_verified": 2,
+        "accepted_instances": 1,
+        "certificate_id": "m3_tag_h3_cyclic_perm_n8",
+        "protocol": "OMEGA94-LB-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m3_tag_h3_involution_n8",
+      "mode": "tagged_perm_two_dw_reduction_cert",
+      "mean_ms": 0.301,
+      "summary": {
+        "mode": "tagged_perm_two_dw_reduction_cert",
+        "h_bits": 3,
+        "N_records": 8,
+        "instances_verified": 2,
+        "accepted_instances": 1,
+        "certificate_id": "m3_tag_h3_involution_n8",
+        "protocol": "OMEGA94-LB-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m4_tripod_balanced_unit_1_1_1",
+      "mode": "tripod_harmonic_and_amhm_rigidity_cert",
+      "mean_ms": 0.045,
+      "summary": {
+        "mode": "tripod_harmonic_and_amhm_rigidity_cert",
+        "is_balanced": true,
+        "D_star": "8/3",
+        "exponent_ratio": "9/4",
+        "am_hm_margin": "0/1",
+        "asymptotic_b": 5,
+        "certificate_id": "m4_tripod_balanced_unit_1_1_1",
+        "protocol": "OMEGA94-LB-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m4_tripod_maximal_scale1_3_8",
+      "mode": "tripod_harmonic_and_amhm_rigidity_cert",
+      "mean_ms": 0.046,
+      "summary": {
+        "mode": "tripod_harmonic_and_amhm_rigidity_cert",
+        "is_balanced": true,
+        "D_star": "1/1",
+        "exponent_ratio": "9/4",
+        "am_hm_margin": "0/1",
+        "asymptotic_b": 20,
+        "certificate_id": "m4_tripod_maximal_scale1_3_8",
+        "protocol": "OMEGA94-LB-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m4_tripod_asymmetric_1_2_3",
+      "mode": "tripod_harmonic_and_amhm_rigidity_cert",
+      "mean_ms": 0.044,
+      "summary": {
+        "mode": "tripod_harmonic_and_amhm_rigidity_cert",
+        "is_balanced": false,
+        "D_star": "60/11",
+        "exponent_ratio": "11/5",
+        "am_hm_margin": "4/33",
+        "asymptotic_b": 50,
+        "certificate_id": "m4_tripod_asymmetric_1_2_3",
+        "protocol": "OMEGA94-LB-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m4_tripod_stretched_1_1_100",
+      "mode": "tripod_harmonic_and_amhm_rigidity_cert",
+      "mean_ms": 0.047,
+      "summary": {
+        "mode": "tripod_harmonic_and_amhm_rigidity_cert",
+        "is_balanced": false,
+        "D_star": "20402/201",
+        "exponent_ratio": "20502/10201",
+        "am_hm_margin": "726/67",
+        "asymptotic_b": 100,
+        "certificate_id": "m4_tripod_stretched_1_1_100",
+        "protocol": "OMEGA94-LB-CERT-1.0"
+      }
+    }
+  ]
+}

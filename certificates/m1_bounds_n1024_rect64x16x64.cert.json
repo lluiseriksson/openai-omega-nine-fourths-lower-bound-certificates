@@ -1,0 +1,21 @@
+{
+  "protocol": "OMEGA94-LB-CERT-1.0",
+  "certificate_id": "m1_bounds_n1024_rect64x16x64",
+  "mode": "rank_gate_and_tight_support_cert",
+  "description": "Cors. 1.2-1.3 exact rank/gate lower bounds for n=1024, rect=[64, 16, 64], tight T_8",
+  "payload": {
+    "n_square": 1024,
+    "border_rank_lb": 5931642,
+    "gate_lb": 2965821,
+    "rect_dims": [
+      64,
+      16,
+      64
+    ],
+    "rect_rank_lb": 4096,
+    "tight_n": 8,
+    "tight_B": 10,
+    "sun_check_n": 256,
+    "sun_proposed_ub": 131072
+  }
+}

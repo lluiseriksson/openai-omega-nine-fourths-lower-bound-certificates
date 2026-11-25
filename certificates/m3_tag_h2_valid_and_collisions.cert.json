@@ -1,0 +1,95 @@
+{
+  "protocol": "OMEGA94-LB-CERT-1.0",
+  "certificate_id": "m3_tag_h2_valid_and_collisions",
+  "mode": "tagged_perm_two_dw_reduction_cert",
+  "description": "Sec. 4.1 exact Tag(2,2) reduction to two D_w tests (4 instances)",
+  "payload": {
+    "h_bits": 2,
+    "instances": [
+      {
+        "tags": [
+          2,
+          0,
+          3,
+          1
+        ],
+        "x_payloads": [
+          1,
+          3,
+          2,
+          0
+        ],
+        "y_payloads": [
+          3,
+          0,
+          1,
+          2
+        ],
+        "expected_tag": 1
+      },
+      {
+        "tags": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "x_payloads": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "y_payloads": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "expected_tag": 1
+      },
+      {
+        "tags": [
+          2,
+          0,
+          3,
+          1
+        ],
+        "x_payloads": [
+          1,
+          3,
+          2,
+          1
+        ],
+        "y_payloads": [
+          3,
+          0,
+          1,
+          2
+        ],
+        "expected_tag": 0
+      },
+      {
+        "tags": [
+          2,
+          0,
+          2,
+          1
+        ],
+        "x_payloads": [
+          1,
+          3,
+          2,
+          0
+        ],
+        "y_payloads": [
+          3,
+          0,
+          1,
+          2
+        ],
+        "expected_tag": 0
+      }
+    ]
+  }
+}

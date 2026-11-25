@@ -1,0 +1,100 @@
+{
+  "rows": [
+    {
+      "b_str": "1/8",
+      "b_float": 0.125,
+      "D_star_float": 2.025,
+      "exponent_ratio_float": 2.098765,
+      "am_hm_margin_float": 0.136111,
+      "gap_below_9_4": 0.151235
+    },
+    {
+      "b_str": "1/4",
+      "b_float": 0.25,
+      "D_star_float": 2.083333,
+      "exponent_ratio_float": 2.16,
+      "am_hm_margin_float": 0.083333,
+      "gap_below_9_4": 0.09
+    },
+    {
+      "b_str": "1/2",
+      "b_float": 0.5,
+      "D_star_float": 2.25,
+      "exponent_ratio_float": 2.222222,
+      "am_hm_margin_float": 0.027778,
+      "gap_below_9_4": 0.027778
+    },
+    {
+      "b_str": "3/4",
+      "b_float": 0.75,
+      "D_star_float": 2.45,
+      "exponent_ratio_float": 2.244898,
+      "am_hm_margin_float": 0.005556,
+      "gap_below_9_4": 0.005102
+    },
+    {
+      "b_str": "1/1",
+      "b_float": 1.0,
+      "D_star_float": 2.666667,
+      "exponent_ratio_float": 2.25,
+      "am_hm_margin_float": 0.0,
+      "gap_below_9_4": 0.0
+    },
+    {
+      "b_str": "3/2",
+      "b_float": 1.5,
+      "D_star_float": 3.125,
+      "exponent_ratio_float": 2.24,
+      "am_hm_margin_float": 0.013889,
+      "gap_below_9_4": 0.01
+    },
+    {
+      "b_str": "2/1",
+      "b_float": 2.0,
+      "D_star_float": 3.6,
+      "exponent_ratio_float": 2.222222,
+      "am_hm_margin_float": 0.044444,
+      "gap_below_9_4": 0.027778
+    },
+    {
+      "b_str": "3/1",
+      "b_float": 3.0,
+      "D_star_float": 4.571429,
+      "exponent_ratio_float": 2.1875,
+      "am_hm_margin_float": 0.126984,
+      "gap_below_9_4": 0.0625
+    },
+    {
+      "b_str": "4/1",
+      "b_float": 4.0,
+      "D_star_float": 5.555556,
+      "exponent_ratio_float": 2.16,
+      "am_hm_margin_float": 0.222222,
+      "gap_below_9_4": 0.09
+    },
+    {
+      "b_str": "8/1",
+      "b_float": 8.0,
+      "D_star_float": 9.529412,
+      "exponent_ratio_float": 2.098765,
+      "am_hm_margin_float": 0.640523,
+      "gap_below_9_4": 0.151235
+    },
+    {
+      "b_str": "16/1",
+      "b_float": 16.0,
+      "D_star_float": 17.515152,
+      "exponent_ratio_float": 2.055363,
+      "am_hm_margin_float": 1.515152,
+      "gap_below_9_4": 0.194637
+    },
+    {
+      "b_str": "32/1",
+      "b_float": 32.0,
+      "D_star_float": 33.507692,
+      "exponent_ratio_float": 2.029385,
+      "am_hm_margin_float": 3.28547,
+      "gap_below_9_4": 0.220615
+    }
+  ]
+}

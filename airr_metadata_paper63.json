@@ -1,0 +1,22 @@
+{
+  "title": "Constructive Lean 4 Kernel and Exact Zero-Float Certificates for OpenAI's Matching Matrix Multiplication Lower Bound omega_F = 9/4",
+  "authors": ["Lluis Eriksson"],
+  "abstract": "A November 24, 2026 companion preprint from OpenAI proposes a matching lower bound showing that the matrix multiplication exponent equals omega_F = 9/4 over every field, with geometric border rank at least n^(9/4), at least ceil(n^(9/4)/2) nonscalar multiplication or division gates, dual exponent alpha_F <= 2/3, and refutation of Strassen's tight-tensor conjecture. Rather than assuming peer-reviewed validation of its CAT(0) spectral-space and tensor-network compression pillars, we deliver an independent, explicitly scoped, zero-floating-point verification companion for its discrete algebraic, symbolic dual-number bilinearization, tight-support, tagged-permutation, harmonic-star, and tripod AM-HM rigidity mechanisms. Layer 1 (OpenAIOmegaLowerBound.lean) proves 18 standalone constructive Lean 4.35.0 algebraic, combinatorial, and rational-rigidity sub-lemmas (zero sorry, zero axiom, zero Classical.choice, zero warnings; 4 zero-axiom none and 14 [propext, Quot.sound]). Layer 2 (OMEGA94-LB-CERT-1.0) is a pure-stdlib Python int/Fraction 4-mode auditor certifying 16 canonical finite witnesses in 0.027-2.466 ms and rejecting 70/70 live adversarial forgeries with exact branch assertions (76/76 pytest checks).",
+  "primary_subject": "Computer and information sciences",
+  "secondary_subjects": ["Mathematics"],
+  "keywords": [
+    "matrix multiplication exponent",
+    "omega equals nine fourths",
+    "arithmetic circuit lower bounds",
+    "Lean 4 formal verification",
+    "asymptotic spectrum of tensors",
+    "dual-number bilinearization",
+    "Strassen tight tensors",
+    "tripod harmonic rigidity"
+  ],
+  "license": "CC-BY-4.0",
+  "code_license": "MIT",
+  "repo_url": "https://github.com/lluiseriksson/openai-omega-nine-fourths-lower-bound-certificates",
+  "release_tag": "v1.0.0",
+  "pdf_relpath": "paper/main.pdf"
+}
